@@ -25,7 +25,7 @@ Listed below are some of the tools and technologies that were used in constructi
 
 ### Infrastructure
 - [Amazon Web Services](https://aws.amazon.com/)
-	- S3
+	- Simple Storage Service (S3)
 	- Relational Database Service (RDS)
 	- Elastic Container Service (ECS)
 	- Elastic Container Registry (ECR)
