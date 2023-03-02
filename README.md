@@ -4,7 +4,7 @@ From concert bands to aspiring SoundCloud rappers, people often work with others
 
 ## Design
 ### Concurrency Control
-One of the primary challenges for this project is concurrency control among users making parallel edits to the same properties of audio clips. At a high level, this is reconciled using a conflict-free replicated data type (CRDT) updated with last-write wins (LWW) semantics. Bidirectional communication between active clients and the server is handled using web sockets.
+One of the primary challenges for this project is concurrency control among users making parallel edits to the same/similar properties of audio clips. At a high level, this is reconciled using a conflict-free replicated data type (CRDT) updated with last-write wins (LWW) semantics. Bidirectional communication between active clients and the server is handled using web sockets.
 
 
 ## Technologies and tools
@@ -20,18 +20,14 @@ Listed below are some of the tools and technologies that were used in constructi
 ### Backend
 - [Golang](https://go.dev/)
 - [MySQL](https://www.mysql.com/)
-- [Docker](https://www.docker.com/)
 - [dbdiagram.io](https://dbdiagram.io/home)
 
 ### Infrastructure
 - [Amazon Web Services](https://aws.amazon.com/)
 	- Simple Storage Service (S3)
 	- Relational Database Service (RDS)
-	- Elastic Container Service (ECS)
-	- Elastic Container Registry (ECR)
 	- Elastic Compute Cloud (EC2)
 	- Secrets Manager
 	- Route53
 	- AWS Certificate Manager (ACM)
-- [Docker](https://www.docker.com/)
 - [Netlify](https://www.netlify.com/)
