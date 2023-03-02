@@ -1,4 +1,4 @@
-# CollabJam
+# CollabJam (4th Year Engineering Design Project)
 
 From concert bands to aspiring SoundCloud rappers, people often work with others to create music. However, groups lack the ability to edit audio together in real time and often resort to sending audio files back and forth. CollabJam enables musicians to create their music collaboratively by providing a single web interface where they can upload, edit and share their music while receiving real-time updates from others on their team.
 
